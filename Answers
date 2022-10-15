@@ -1,0 +1,5 @@
+ANSWER 1: select distinct replacement_cost from film;
+
+ANSWER 2: select count(distinct replacement_cost) from film; -- 21
+
+ANSWER 3: 
