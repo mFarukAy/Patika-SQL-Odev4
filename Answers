@@ -2,4 +2,11 @@ ANSWER 1: select distinct replacement_cost from film;
 
 ANSWER 2: select count(distinct replacement_cost) from film; -- 21
 
-ANSWER 3: 
+ANSWER 3: select count(*) from film
+where title ~~ 'T%' and rating = 'G'; -- 9
+
+ANSWER 4: select count(*) from country
+where country ~~ '_____'; -- 13
+
+ANSWER 5: select count(*) from city
+where city ~~* '%r'; -- 33
